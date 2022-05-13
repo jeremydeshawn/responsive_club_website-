@@ -1,0 +1,78 @@
+*{
+    background-color:black;
+    color: gold;
+}
+
+h1{
+    text-align: center;
+}
+
+img.logo{
+    height: 70px;
+    margin-left: 5px;
+    border: solid gold 2px;
+    margin-top: 10px;
+}
+
+div.header{
+    width: 100%;
+    border: 10px solid gold;
+  }
+  
+   div.header-right{
+    float: right;
+    
+  }
+  
+  div.header-right ul li{
+    list-style-type: none;
+    padding: 5px;
+    vertical-align: top;
+    display: inline;
+    color: gold;
+    margin-right: 20px;
+  }
+
+  div.header-right ul li a{
+      color: gold;
+      font-size: 30px;
+  }
+
+  .mission{
+      text-align: center;
+      border: solid 10px gold;
+      margin-top: 30px;
+  }
+
+  .content h1, .content h2{
+      text-align: center;
+  }
+
+  .products img{
+      height: 250px;
+      width: 250px;
+      border: solid gold 10px;
+  }
+
+  .products{
+      display: flex;
+      flex-wrap: wrap;
+     justify-content: space-around;
+     flex-grow: 2;
+
+  }
+
+  .product-talk{
+      border: 10px solid gold;
+      margin-top: 100px;
+  }
+
+  .team{
+      text-align: center;
+      margin-top: 100px;
+  }
+
+  .mypic{
+      height: 500px;
+      border: solid gold 10px;
+  }
